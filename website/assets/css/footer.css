@@ -1,0 +1,52 @@
+footer {
+    background: rgba(52, 89, 134, 0.52);
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+footer h2{
+    margin: 0;
+    padding: 0;
+}
+
+footer .lineFooter {
+    width: 100%;
+    margin-top: 8%;
+}
+
+.contact-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 4%;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.social-media .logoHomebox{
+    height: 200px;
+}
+
+.address{
+    width: 45%;
+}
+
+
+.img-social-media{
+    margin-top: 8%;
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}

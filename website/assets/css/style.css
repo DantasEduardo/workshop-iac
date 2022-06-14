@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+/* Início página de Login */
+
+.login_body {
+    background-image: url("../img/painting.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_login {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 40%;
+    height: 92%;
+    left: 6%;
+    top: 5%;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+}
+
+.login {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+}
+
+.login_title {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 60%;
+    top: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 40px;
+    color: #0a3969;
+}
+
+.email_password {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    margin-left: 30%;
+    margin-right: 30%;
+    top: 55%;
+}
+
+.login label {
+    color: black;
+    font-size: 21px;
+}
+
+.login label,
+.login input {
+    width: 90%;
+    height: 12%;
+    left: 122px;
+    top: 10%;
+    border-radius: 30px;
+}
+
+.login input {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 12%;
+    left: 122px;
+    top: 20%;
+    background: rgba(150, 150, 150, 0.53);
+    border-radius: 30px;
+}
+
+.email_password p {
+    margin-left: 45%;
+    font-size: 20px;
+    margin-right: 50%;
+    margin-bottom: 12%;
+}
+
+.img_container {
+    margin-left: 17%;
+}
+
+div .logo {
+    width: 13.5%;
+    border-radius: 5px;
+    padding-right: 17%;
+}
+
+.conteudo_login {
+    width: 100%;
+}
+
+.homebox_logo {
+    float: right;
+    margin: 30px;
+}
+
+.logo_homebox {
+    float: right;
+    width: 70%;
+    /* margin: 100px;
+    padding: 0; */
+}
+
+.div_button {
+    float: right;
+    margin-top: 23%;
+    margin-right: 5%;
+    margin-left: 8%;
+}
+
+.div_button button {
+    border: none;
+    cursor: pointer;
+    background-color: #0a3969;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 27px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.div_button a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    float: right;
+}
+
+/* Fim página de Login */
+
+/* Início página de Cadastro */
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.register_body {
+    font-size: 24px;
+    background-image: url("../img/painting.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.register_body img {
+    height: 130px;
+    float: right;
+}
+
+.register_div {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+}
+
+.register_div h2 {
+    font-weight: bold;
+    color: #0a3969;
+    margin: 5% 0% 0% 0%;
+}
+
+.div_input {
+    font-weight: 200;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.div_input p {
+    font-weight: lighter;
+    margin: 10% 0% 2% 0%;
+}
+
+.div_input select{
+    background: rgba(150, 150, 150, 0.53);
+    border-radius: 10px;
+    font-weight: bold;
+    height: 40px;
+    border: none;
+    padding: 2%;
+}
+
+.div_input input {
+    background: rgba(150, 150, 150, 0.53);
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    border: none;
+    padding: 2%;
+}
+
+.div_input input::placeholder {
+    font-size: 16px;
+}
+
+.button_register {
+    width: 192px;
+    height: 50px;
+    left: 865px;
+    top: 1067px;
+    font-size: large;
+    color: white;
+    margin: 20% 0% 20% 0%;
+    background: #0A3969;
+    border-radius: 30px;
+}
+
+/* Fim página de Cadastro */
